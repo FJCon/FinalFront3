@@ -1,16 +1,14 @@
 
 import './App.css'
-import { ThemeProvider } from './context/Themeprovider'
-import { UserProvider } from './context/UserProvider'
+import { AppProvider } from './context/AppProvider'
 
 function App() {
 
 
   return (
-    <ThemeProvider>
-      <UserProvider>
-      </UserProvider>
-    </ThemeProvider>
+    <AppProvider>
+      
+    </AppProvider>
   )
 }
 
