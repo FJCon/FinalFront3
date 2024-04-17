@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useDentistaStates } from '../Context/DentistaContext';
+import { useDentistaStates } from '../context/AppContext';
 import { MdOutlineWbSunny } from "react-icons/md";
 import { FiMoon } from "react-icons/fi";
 

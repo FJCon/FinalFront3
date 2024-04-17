@@ -1,4 +1,4 @@
-import { useDentistaStates } from '../Context/DentistaContext'
+import { useDentistaStates } from '../context/AppContext'
 import Card from './Card'
 
 const DentistaList = () => {

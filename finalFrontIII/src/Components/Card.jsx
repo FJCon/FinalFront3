@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
-import { useDentistaStates} from '../Context/DentistaContext'
+import { useDentistaStates} from '../context/AppContext'
 import { IoStar } from "react-icons/io5";
 import Toastify from 'toastify-js'
 
