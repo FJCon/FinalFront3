@@ -33,8 +33,8 @@ const Card = ({users}) => {
       )} 
       </Link>
       {isInFavs(users.id) ? 
-  <button>  Se ha añadido a favoritos!  </button> : 
-  <button onClick={addToFavorites}><IoStar />  Añadime a favoritos!  <IoStar /></button>
+  <button>  Guardado en favoritos!  </button> : 
+  <button onClick={addToFavorites}>  Añadime a favoritos!</button>
   
 }
     </div>

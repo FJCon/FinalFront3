@@ -5,6 +5,7 @@ const Home = () => {
   return (
     
     <div className='home'>
+        <h2>Lista de dentesitas</h2>
         <DentistaList/>
     </div>
   )

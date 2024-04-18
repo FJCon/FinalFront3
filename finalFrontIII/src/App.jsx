@@ -4,12 +4,12 @@ import Navbar from './Components/Navbar'
 import Contacto from './Pages/Contacto'
 import Home from './Pages/Home'
 import PageNotFound from './Pages/PageNotFound'
-import { DentistaDetail } from './Pages/DentistaDetail'
 import './Styles/App.css'
 import './Styles/Style.css'
-import {Favs} from './Pages/Favs'
+import Favs from './Pages/Favs'
 import { useDentistaStates } from './context/AppContext.jsx'
 import Footer from './Components/Footer'
+import DentistaDetail from './Pages/DentistaDetail.jsx'
 
 function App() {
   const {state} = useDentistaStates()

@@ -38,7 +38,7 @@ const ContactForm = () => {
     <div className='container form'>
       <form onSubmit={handleSubmit}>
       <h2>Formulario de Contacto</h2>
-        <div>
+        <div className='formInput'>
           <label htmlFor="nombre">Nombre Completo:</label>
           <input
             type="text"
@@ -48,7 +48,7 @@ const ContactForm = () => {
             onChange={handleChange}
           />
         </div>
-        <div>
+        <div className='formInput'>
           <label htmlFor="email">Email:</label>
           <input
             type="email"
