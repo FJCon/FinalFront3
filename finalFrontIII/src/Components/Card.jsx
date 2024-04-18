@@ -2,7 +2,6 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 import { useDentistaStates} from '../context/AppContext'
 import { IoStar } from "react-icons/io5";
-import Toastify from 'toastify-js'
 
 
 
@@ -11,15 +10,8 @@ const Card = ({users}) => {
   const addToFavorites = () => {
     if(!isInFavs(users.id)){
       dispatch({ type: 'ADD_FAV', payload: users });
-      //alert("Se ha añadido un favorito.")
+      alert("Se ha añadido un favorito.")
       console.log("click");
-      Toastify({
-        text: "Se ha añadido un favorito",  gravity: "top", 
-        position: "center", 
-        style: {
-          background: "linear-gradient(to right, #00b09b, #96c93d)",
-        }
-      }).showToast();
     }
 };
 

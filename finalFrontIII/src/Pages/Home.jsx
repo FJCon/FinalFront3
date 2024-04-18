@@ -5,10 +5,7 @@ const Home = () => {
   return (
     
     <div className='home'>
-
-        
         <DentistaList/>
-
     </div>
   )
 }
